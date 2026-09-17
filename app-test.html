@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Untis-App Linktest</title>
+<style>
+  :root{--bg:#EEF1F4;--surface:#fff;--ink:#16202E;--muted:#5A6573;--line:#D6DCE3}
+  @media (prefers-color-scheme: dark){:root{--bg:#11151B;--surface:#1A2029;--ink:#E6EAF0;--muted:#9BA6B4;--line:#2E3744}}
+  body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+  main{max-width:34rem;margin:0 auto;padding:1.25rem 1rem 3rem}
+  h1{font-size:1.5rem;margin:0 0 .5rem}
+  p{color:var(--muted);margin:0 0 1rem}
+  ol{padding:0;margin:0;list-style:none;counter-reset:n}
+  li{counter-increment:n;background:var(--surface);border:1px solid var(--line);border-radius:.6rem;padding:.8rem 1rem;margin:0 0 .6rem}
+  li::before{content:"Test " counter(n);display:block;font-weight:700;margin-bottom:.3rem}
+  a{display:block;padding:.6rem .8rem;border-radius:.4rem;background:var(--ink);color:var(--surface);text-decoration:none;text-align:center;font-weight:600}
+  code{display:block;font-size:.78rem;color:var(--muted);word-break:break-all;margin-top:.4rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>Untis-App Linktest</h1>
+  <p>Bitte am Handy der Reihe nach antippen. Nach jedem Test zurück zu dieser Seite wechseln. Notieren: Öffnet sich die App? Zeigt sie den Stundenplan oder fragt sie nach einer Anmeldung?</p>
+  <ol>
+    <li><a href="untis://">untis://</a><code>untis://</code></li>
+    <li><a href="untis://open">untis://open</a><code>untis://open</code></li>
+    <li><a href="untis://setschool?url=herzjesugym.webuntis.com&amp;school=herzjesugym">Schule herzjesugym</a><code>untis://setschool?url=herzjesugym.webuntis.com&amp;school=herzjesugym</code></li>
+    <li><a href="webuntis://">webuntis://</a><code>webuntis://</code></li>
+    <li><a href="untismobile://">untismobile://</a><code>untismobile://</code></li>
+    <li><a href="com.grupet.web.app://">com.grupet.web.app://</a><code>com.grupet.web.app://</code></li>
+  </ol>
+</main>
+</body>
+</html>
